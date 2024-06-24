@@ -13,11 +13,14 @@
     "forceConsistentCasingInFileNames": true,
     "noFallthroughCasesInSwitch": true,
     "noImplicitReturns": true,
-    "noUnusedLocals": true,
-    "noUnusedParameters": true,
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
     "noImplicitAny": false,
     "noImplicitThis": false,
-    "strictNullChecks": false
+    "strictNullChecks": false,
+    "declaration": true,
+    "emitDeclarationOnly": true, 
+    "allowImportingTsExtensions": true
   },
   "include": ["src/**/*", "__tests__/**/*"]
 }
